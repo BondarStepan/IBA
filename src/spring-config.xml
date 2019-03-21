@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+    <bean name="DeathStar" class="objects.Spacecraft">
+        <property name="name" value="Death Star"/>
+        <property name="classification" value="Planet destroer"/>
+        <property name="capacity" value="5"/>
+    </bean>
+    <bean name="Trip1" class="objects.Trip">
+        <property name="codeName" value="Trip to the Moon."/>
+        <property name="destination" value="Moon"/>
+        <property name="startingPoint" value="Earth"/>
+    </bean>
+    <bean name="Trip2" class="objects.Trip">
+        <property name="codeName" value="Trip to the Mars."/>
+        <property name="destination" value="Mars"/>
+        <property name="startingPoint" value="Moon"/>
+    </bean>
+    <bean name="Trip3" class="objects.Trip">
+        <property name="codeName" value="Trip to the Sun."/>
+        <property name="destination" value="Sun"/>
+        <property name="startingPoint" value="Mars"/>
+    </bean>
+</beans>
