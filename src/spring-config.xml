@@ -7,6 +7,16 @@
         <property name="classification" value="Planet destroer"/>
         <property name="capacity" value="5"/>
     </bean>
+    <bean name="BigDonut" class="objects.Spacecraft">
+        <property name="name" value="Big DONUT"/>
+        <property name="classification" value="Planet eater"/>
+        <property name="capacity" value="1924324"/>
+    </bean>
+    <bean name="PeacfullCorsair" class="objects.Spacecraft">
+        <property name="name" value="Peacfull corsair"/>
+        <property name="classification" value="The best ship literally."/>
+        <property name="capacity" value="1000"/>
+    </bean>
     <bean name="Trip1" class="objects.Trip">
         <property name="codeName" value="Trip to the Moon."/>
         <property name="destination" value="Moon"/>
@@ -21,5 +31,33 @@
         <property name="codeName" value="Trip to the Sun."/>
         <property name="destination" value="Sun"/>
         <property name="startingPoint" value="Mars"/>
+    </bean>
+    <bean name="Astr1" class="objects.Astronauts">
+    <property name="firstName" value="Trip to the Moon."/>
+    <property name="lastName" value="Moon"/>
+    <property name="age" value="34"/>
+    <property name="sex" value="true"/>
+    <property name="speciality" value="Earth"/>
+</bean>
+    <bean name="Astr2" class="objects.Astronauts">
+        <property name="firstName" value="Trip to the Moon."/>
+        <property name="lastName" value="Moon"/>
+        <property name="age" value="34"/>
+        <property name="sex" value="true"/>
+        <property name="speciality" value="Earth"/>
+    </bean>
+    <bean name="Astr3" class="objects.Astronauts">
+        <property name="firstName" value="Trip to the Moon."/>
+        <property name="lastName" value="Moon"/>
+        <property name="age" value="34"/>
+        <property name="sex" value="true"/>
+        <property name="speciality" value="Earth"/>
+    </bean>
+    <bean name="Astr4" class="objects.Astronauts">
+        <property name="firstName" value="Trip to the Moon."/>
+        <property name="lastName" value="Moon"/>
+        <property name="age" value="34"/>
+        <property name="sex" value="true"/>
+        <property name="speciality" value="Earth"/>
     </bean>
 </beans>

@@ -17,7 +17,7 @@ public class Trip {
 
     @Override
     public String toString() {
-        return "Trip{" +
+        return "Trip: " +
                 "spacecraft=" + spacecraft +
                 ", crew=" + crew +
                 ", food=" + food +
