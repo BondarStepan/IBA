@@ -29,9 +29,7 @@ int key=Integer.parseInt(user_input.next());
 EmulationService UNION = new EmulationService();
 
 UNION.start(trips.get(key));
-//        for (String i:beans){ ;
-//            System.out.println((Trip) context.getBean(i));
-//        };
+
 
 
     }

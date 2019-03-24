@@ -16,15 +16,14 @@ public class Trip {
 
     @Override
     public String toString() {
-        return "Trip{" +
-                "spacecraft=" + spacecraft +
-                ", crew=" + crew +
-                ", food=" + food +
-                ", codeName='" + codeName + '\'' +
-                ", date=" + date +
-                ", Destination='" + Destination + '\'' +
-                ", StartingPoint='" + StartingPoint + '\'' +
-                '}';
+        return "Trip: " +
+                "\nspacecraft=" + spacecraft +
+                "\ncrew=" + crew +
+                "\nfood=" + food +
+                "\ncodeName='" + codeName + '\'' +
+                "\ndate=" + date +
+                "\nDestination='" + Destination + '\'' +
+                "\nStartingPoint='" + StartingPoint + '\'';
     }
 
     @Override

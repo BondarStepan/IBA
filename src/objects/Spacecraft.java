@@ -57,10 +57,9 @@ public class Spacecraft {
 
     @Override
     public String toString() {
-        return "Spacecraft{" +
-                "name='" + name + '\'' +
-                ", classification='" + classification + '\'' +
-                ", capacity=" + capacity +
-                '}';
+        return "Spacecraft: " +
+                "\n  name='" + name + '\'' +
+                "\n  classification='" + classification + '\'' +
+                "\n  capacity=" + capacity;
     }
 }

@@ -79,12 +79,11 @@ public class Astronauts {
 
     @Override
     public String toString() {
-        return "Astronauts{" +
-                "firstName='" + firstName + '\'' +
-                ", lastName='" + lastName + '\'' +
-                ", age=" + age +
-                ", sex=" + sex +
-                ", speciality='" + speciality + '\'' +
-                '}';
+        return "Astronauts: " +
+                "\n  firstName='" + firstName + '\'' +
+                "\n  lastName='" + lastName + '\'' +
+                "\n  age=" + age +
+                "\n  sex=" + sex +
+                "\n  speciality='" + speciality + '\'';
     }
 }
